@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script> 
+    
+
+
+
+    <title>RETO 4 Sebastian Avendaño Garcia</title>
+</head>
+    <script type="text/javascript" src="js/Categoryjs.js"></script>
+    <script type="text/javascript" src="js/Clientjs.js"></script>
+    <script type="text/javascript" src="js/Motorbikejs.js"></script>
+    <script type="text/javascript" src="js/Messagejs.js"></script>
+    <script type="text/javascript" src="js/Reservationjs.js"></script>
+    <script type="text/javascript" src="js/Scorejs.js"></script>
+    <script type="text/javascript" src="js/Adminjs.js"></script>
+<body>
+    <em>
+        <h1>Motorbike Rental</h1>
+    </em>
+    <div>
+        <h1>Category</em></h1>
+
+        <input type="text" id="nameCategory" placeholder="Name Category">
+        <input type="text" id="descripcionCategory" placeholder="Descripcion Category">
+        <br>
+        <br>
+        <button onclick="traerInformacionCategory()">Consultar</button>
+        <button onclick="guardarInformacionCategory()">Guardar</button>
+       
+
+    </div>
+    <br>
+    <div id="resultadoCategory"></div>
+
+    <div>
+        <h1>Client</em></h1>
+
+        <input type="text" id="emailClient" placeholder="Email Client">
+        <input type="text" id="passwordClient" placeholder="Password Client">
+        <input type="text" id="nameClient" placeholder="Name Client">
+        <input type="number" id="ageClient" placeholder="Age Client">
+        <br>
+        <br>
+        <button onclick="traerInformacionClient()">Consultar</button>
+        <button onclick="guardarInformacionClient()">Guardar</button>
+
+    </div>
+    <br>
+    <div id="resultadoClient"></div>
+
+    <div>
+        <h1>Motorbike</em></h1>
+
+        <input type="text" id="brandMotorbike" placeholder="Brand Motorbike">
+        <input type="number" id="year_bMotorbike" placeholder="Year Motorbike">
+        <input type="text" id="descriptionMotorbike" placeholder="Description Motorbike">
+        <input type="text" id="nameMotorbike" placeholder="Name Motorbike">
+        <br>
+        <br>
+        <button onclick="traerInformacionMotorbike()">Consultar</button>
+        <button onclick="guardarInformacionMotorbike()">Guardar</button>
+
+    </div>
+    <br>
+    <div id="resultadoMotorbike"></div>
+
+    <div>
+        <h1>Message</em></h1>
+
+        <input type="text" id="messageText" placeholder="Message">
+        <br>
+        <br>
+        <button onclick="traerInformacionMessage()">Consultar</button>
+        <button onclick="guardarInformacionMessage()">Guardar</bustton>
+
+    </div>
+    <br>
+    <div id="resultadoMessage"></div>
+
+    <div>
+        <h1>Reservation</em></h1>
+
+        <input type="Date" id="startDate" placeholder="Start Date">
+        <input type="Date" id="devolutionDate" placeholder="devolution Date">
+        <br>
+        <br>
+        <button onclick="traerInformacionReservation()">Consultar</button>
+        <button onclick="guardarInformacionReservation()">Guardar</bustton>
+
+    </div>
+    <br>
+    <div id="resultadoReservation"></div>
+
+    <div>
+        <h1>Score</em></h1>
+
+        <input type="text" id="messageTextS" placeholder="Message">
+        <input type="number" id="stars" placeholder="stars">
+        <br>
+        <br>
+        <button onclick="traerInformacionScore()">Consultar</button>
+        <button onclick="guardarInformacionScore()">Guardar</bustton>
+
+    </div>
+    <br>
+    <div id="resultadoScore"></div>
+
+    <div>
+        <h1>Admin</em></h1>
+
+        <input type="text" id="emailAdmin" placeholder="Email Admin">
+        <input type="text" id="passwordAdmin" placeholder="Password Admin">
+        <input type="text" id="nameAdmin" placeholder="Name Admin">
+        <br>
+        <br>
+        <button onclick="traerInformacionAdmin()">Consultar</button>
+        <button onclick="guardarInformacionAdmin()">Guardar</button>
+
+    </div>
+    <br>
+    <div id="resultadoAdmin"></div>
+    
+
+</body>
+
+</html>
